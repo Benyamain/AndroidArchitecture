@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.authmoduleyt'
+    namespace 'com.example.architecture'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.authmoduleyt"
+        applicationId "com.example.architecture"
         minSdk 24
         targetSdk 33
         versionCode 1

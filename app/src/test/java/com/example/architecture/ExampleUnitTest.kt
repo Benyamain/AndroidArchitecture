@@ -1,4 +1,4 @@
-package com.example.authmoduleyt
+package com.example.architecture
 
 import org.junit.Test
 

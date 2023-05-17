@@ -1,4 +1,4 @@
-package com.example.authmoduleyt.ui.theme
+package com.example.architecture.ui
 
 import androidx.compose.ui.graphics.Color
 
