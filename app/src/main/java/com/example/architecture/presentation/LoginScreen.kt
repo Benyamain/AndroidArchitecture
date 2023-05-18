@@ -20,10 +20,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.architecture.presentation.components.AuthButton
-import com.example.architecture.presentation.components.BubbleAnimation
-import com.example.architecture.presentation.components.HeaderBackground
-import com.example.architecture.presentation.components.TextEntryModule
+import com.example.architecture.presentation.components.*
 import com.example.architecture.presentation.viewmodel.LoginViewModel
 import com.example.architecture.ui.theme.*
 
@@ -134,16 +131,16 @@ fun LoginScreen(
 
 @Composable
 fun LoginContainer(
-    emailValue:() -> String,
-    passwordValue:()-> String,
-    buttonEnabled:() -> Boolean,
-    onEmailChanged:(String) -> Unit,
-    onPasswordChanged:(String) -> Unit,
-    onLoginButtonClick:()->Unit,
-    isPasswordShown:()->Boolean,
+    emailValue: () -> String,
+    passwordValue: ()-> String,
+    buttonEnabled: () -> Boolean,
+    onEmailChanged: (String) -> Unit,
+    onPasswordChanged: (String) -> Unit,
+    onLoginButtonClick: () -> Unit,
+    isPasswordShown: () -> Boolean,
     onTrailingPasswordIconClick: () -> Unit,
-    errorHint:()->String?,
-    isLoading:()->Boolean,
+    errorHint: () -> String?,
+    isLoading: () -> Boolean,
     modifier: Modifier = Modifier
 ) {
     Column(

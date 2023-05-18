@@ -6,6 +6,7 @@ import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.architecture.domain.model.RegisterInputValidationType
+import com.example.architecture.domain.repository.AuthRepository
 import com.example.architecture.domain.use_case.ValidateRegisterInputUseCase
 import com.example.architecture.presentation.state.RegisterState
 import dagger.hilt.android.lifecycle.HiltViewModel
