@@ -22,8 +22,8 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.architecture.ui.orange
-import com.example.architecture.ui.white
+import com.example.architecture.ui.theme.orange
+import com.example.architecture.ui.theme.white
 
 @Composable
 fun TextEntryModule(
